@@ -1,0 +1,64 @@
+body{
+    font-family: "Nunito", sans-serif;
+    background-color: #141C32;
+}
+
+#logo{
+    width: 141px;
+    height: 83px;   
+}
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 auto ;
+
+}
+#sociais{
+width:20px;
+height:20px;
+border-radius: 5px;
+}
+ul{
+    list-style: none;
+}
+ul li {
+    display: inline-block;
+}
+ul li {
+    padding: 10px 30px ;
+    text-decoration: none;
+    color: white;
+}
+a {
+    text-decoration: none;
+    color: white;
+}
+#entre{
+    color: white;
+ list-style-type: none;
+    text-decoration: none;
+}
+#entre ul{list-style-type: none;}
+#entre{
+border: solid#5BE9B9;
+width: 10%;
+border-radius: 5px;
+}
+#sociais{
+position: relative;
+
+}
+
+.y a:hover {
+    border-bottom: 2px solid #5BE9B9;
+    background-image: linear-gradient(#5BE9B9);
+    transition: width 0.5s;
+}                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        
+.t{
+    border: solid #5BE9B9;
+    border-radius: 10px;
+}
+.navColumn{
+    
+}
