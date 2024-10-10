@@ -13,14 +13,16 @@ body{
     width: 141px;
     height: 83px;   
     padding-left: 40px;
-    padding-top: 20px;
+    padding-top: 50px;
+    position: fixed;
 }
 header{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin: 0 auto ;
-   /* background-color: #5BE9B9;*/
+    margin: 0 auto;
+    
+    /* background-color: #5BE9B9;*/
 
 }
 #sociais{
@@ -50,8 +52,12 @@ a {
     text-decoration: none;
     color: white;
 }
-.hello{color: white; width: 140px; padding-left: 40px;}
-#nav{padding-right: 50px;}
+.hello{color: white; width: 140px; padding-left: 35%; padding-top: 20%;
+row-gap: 5px;}
+#nav{padding-right: 50px;
+    padding-top: 50px;
+    padding-left: 65%;
+justify-items: center;}
 #entre{
     color: white;
  list-style-type: none;
@@ -73,20 +79,26 @@ justify-items: center;
 }                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        
 .t{
     border: solid #5BE9B9;
+    transition: .5s;
     border-radius: 10px;
+}
+.t:hover{
+    background-color: #5BE9B9;
 }
 main{
     display: grid;
     grid-template-rows: 50% 50%;
     grid-template-columns: 50% 50%;
     height: 820px;
-
 }
 
 .navColumn{
   justify-self: left;
     width: 20px;
     height: 20px;
+    position: fixed;
+    padding-left: 50%;
+
 }
 .trilho{
     width: 90px;
@@ -94,7 +106,6 @@ main{
     background-color: #4d4d4d;
     border-radius: 150px;
     justify-self: right;
-
 }
 .trilho .indicador{
     width: 40px;
@@ -135,5 +146,4 @@ body.dark{background-color: #E4F0F7;}
 		}
         
         código js
-
         */
