@@ -1,5 +1,6 @@
 *{
     margin: 0;
+transition: .3s;
 }
 body{
     font-family: "Nunito", sans-serif;
@@ -77,14 +78,7 @@ justify-items: center;
     background-image: linear-gradient(#5BE9B9);
     transition: width 0.5s;
 }                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        
-.t{
-    border: solid #5BE9B9;
-    transition: .5s;
-    border-radius: 10px;
-}
-.t:hover{
-    background-color: #5BE9B9;
-}
+
 main{
     display: grid;
     grid-template-rows: 50% 50%;
@@ -97,8 +91,8 @@ main{
     width: 20px;
     height: 20px;
     position: fixed;
-    padding-left: 50%;
-    padding-bottom: 50px;
+  
+    padding-top: 30%;
 
 }
 .trilho{
@@ -108,6 +102,8 @@ main{
     border-radius: 150px;
     justify-self: right;
     position: relative;
+    left: 870px;
+    bottom: 450px;
 }
 .trilho .indicador{
     width: 40px;
@@ -119,6 +115,8 @@ cursor: pointer;
 position: absolute;
 
 }
+
+
 .trilho.dark .indicador{
     transition: .3s;
     }
