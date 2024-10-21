@@ -34,9 +34,14 @@ border-radius: 5px;
 #sociais{
     position: relative;
     display: flex;
-    top: 150px;
-    right: 110px;
-    gap: 5px;
+    top: 75%;
+    right: 63%;
+    gap: 10px;
+    width: 17%;
+    height: 17%;
+    }
+    #sociais :hover{
+        fill: #E4F0F7;
     }
 ul{
     list-style: none;
@@ -53,8 +58,14 @@ a {
     text-decoration: none;
     color: white;
 }
-.hello{color: white; width: 140px; padding-left: 35%; padding-top: 20%;
-row-gap: 5px;}
+.hello{color: white;
+     width: 140px; 
+     padding-left: 35%; 
+     padding-top: 20%;
+     row-gap: 5px; 
+    text-align:initial; 
+    row-gap: 50px;
+}
 #nav{padding-right: 50px;
     padding-top: 50px;
     padding-left: 65%;
@@ -91,7 +102,6 @@ main{
     width: 20px;
     height: 20px;
     position: fixed;
-  
     padding-top: 30%;
 
 }
